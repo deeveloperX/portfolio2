@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DeevelopeX Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-brand">
+          <a href="#">deevelopeX</a>
+        </div>
+        <button class="navbar-toggler" type="button">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa fa-bars navbar-toggler-icon"></i>
+        </button>
+        <div class="navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+			<li class="nav-item">
+			  <a href="#aboutme" class="nav-link">About</a>
+			</li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+
+	<header class="animate__animated animate__fadeInLeft">
+		<div class="bg"></div>
+		<div class="star-field">
+		<div class="layer"></div>
+		<div class="layer"></div>
+		<div class="layer"></div>
+		<div class="intro" id="home">
+			<h1 id="h1-for-small">Hi, I'm <span class="green-text">deevelopeX</span></h1>
+			<h1 id="h1-for-big"><span class="cyan">&lt;h1&gt;</span> Hi, I'm <span class="green-text">deevelopeX</span> <span class="cyan"> &lt;/h1&gt;</span></h1>
+			<p>Welcome to my portfolio website</p>
+		</div>
+	</header>
+	<main>
+		<section id="aboutme">
+			<h2>About Me</h2>
+			<div class="container">
+				<div class="col-12" id="container12-1">
+					<div class="col-3">
+						<img src="images/my-pic.jpg" alt="">
+					</div>
+					<div class="col-9">
+						<div class="data">
+							<p><b class="green-text">NAME: </b>MAHAD MANZOOR</p>
+							<p><b class="green-text">AGE: </b>21</p>
+							<p><b class="green-text">POST: </b>FRONT-END DEV</p>
+							<p><b class="green-text">LEVEL: </b>INTERMEDIATE</p>
+						</div>	
+					</div>
+				</div>
+				<div class="col-12" id="container12-2">
+					<p><b class="green-text">BIO: <br> </b>I am young, motivated, disciplined web developer from Pakistan. I love being up-to-date with the latest trends and best practices in web development. I am well-versed in a variety of programming languages, including <span class="green-text">HTML, CSS, JS, C, C++, JAVA(basics) (learning more) </span>Goal to be FullStack Dev.</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="education">
+			<h2>Education</h2>
+			<div class="data">
+				<p>As a website <span class="green-text">frontend developer</span> , my main focus is on creating visually appealing and user-friendly interfaces that effectively communicate a website's message to its users.</p>
+				<p>My skills include <span class="green-text">HTML</span>, <span class="green-text">CSS</span>, <span class="green-text">JavaScript</span>, PHP, and WordPress. I am also proficient in using design tools to <span class="green-text"> make something awesome</span>.</p>
+				<p>I am passionate about creating websites that not only look great but also provide a seamless user experience. My <span class="green-text">goal is to help my clients</span> achieve their business objectives through effective website design and development.</p>
+			</div>
+		</section>
+
+		<section id="services">
+			<h2>Services</h2>
+			<div class="container">
+				<div class="row" id="row1">
+					<div class="col-6">Website Design</div>
+					<div class="col-6">Website development</div>
+				</div>
+				<div class="row" id="row2">
+					<div class="col-6">Error Detection</div>
+					<div class="col-6">Front-End Solution</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form>
+				<input class="input" type="text" id="name" name="name" placeholder="Your Name">
+				<input class="input" type="email" id="email" name="email" placeholder="abc@gmail.com">
+				<textarea class="input" id="message" name="message" placeholder="Message Here"></textarea>
+				<input id="button" type="submit" value="Send">
+			</form>
+		</section>
+		
+	</main>
+	<script src="js/script.js"></script>
+</body>
+</html>
