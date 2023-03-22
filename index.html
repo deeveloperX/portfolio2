@@ -15,7 +15,7 @@
           <a href="#">deevelopeX</a>
         </div>
         <button class="navbar-toggler" type="button">
-          <!-- <span class="navbar-toggler-icon"></span> -->
+          <span class="navbar-toggler-icon"></span>
           <i class="fa fa-bars navbar-toggler-icon"></i>
         </button>
         <div class="navbar-collapse">
@@ -27,7 +27,7 @@
 			  <a href="#aboutme" class="nav-link">About</a>
 			</li>
             <li class="nav-item">
-              <a href="#about" class="nav-link">Education</a>
+              <a href="#education" class="nav-link">Education</a>
             </li>
             <li class="nav-item">
               <a href="#services" class="nav-link">services</a>
@@ -76,11 +76,28 @@
 		</section>
 
 		<section id="education">
-			<h2>Education</h2>
-			<div class="data">
-				<p>As a website <span class="green-text">frontend developer</span> , my main focus is on creating visually appealing and user-friendly interfaces that effectively communicate a website's message to its users.</p>
-				<p>My skills include <span class="green-text">HTML</span>, <span class="green-text">CSS</span>, <span class="green-text">JavaScript</span>, PHP, and WordPress. I am also proficient in using design tools to <span class="green-text"> make something awesome</span>.</p>
-				<p>I am passionate about creating websites that not only look great but also provide a seamless user experience. My <span class="green-text">goal is to help my clients</span> achieve their business objectives through effective website design and development.</p>
+			<div class="col-12">
+				<div class="col-4">
+					<i class="fa fa-school"></i>
+					<h2>Metric</h2>
+					<div class="nested">
+						<p>I have passed my metric with <span class="green-text">82.82%</span> marks</p>
+					</div>
+				</div>
+				<div class="col-4">
+					<i class="fa fa-duotone fa-building-columns"></i>
+					<h2>Intermediate</h2>
+					<div class="nested">
+						<p>I have secured <span class="green-text">63.63%</span> marks in Intermediate</p>
+					</div>
+				</div>
+				<div class="col-4">
+					<i class="fa fa-solid fa-graduation-cap"></i>
+					<h2>Bachelor</h2>
+					<div class="nested">
+						<p>Studying BSCS in 4th semester with <span class="green-text">3.5</span> CGPA</p>
+					</div>
+				</div>
 			</div>
 		</section>
 
@@ -100,11 +117,24 @@
 		<section id="contact">
 			<h2>Contact Me</h2>
 			<form>
-				<input class="input" type="text" id="name" name="name" placeholder="Your Name">
-				<input class="input" type="email" id="email" name="email" placeholder="abc@gmail.com">
-				<textarea class="input" id="message" name="message" placeholder="Message Here"></textarea>
-				<input id="button" type="submit" value="Send">
+				<input class="input" type="text" id="name" name="name" placeholder="Your Name" required>
+				<input class="input" type="email" id="email" name="email" placeholder="abc@gmail.com" required>
+				<textarea class="input" id="message" name="message" placeholder="Message Here" required></textarea>
+				<input id="submitButton" onclick="messageAction()" type="submit" value="Send">
 			</form>
+		</section>
+		<section id="footer">
+			<div class="row">
+				<a href="https://www.instagram.com/mahadraja_official/">
+					<i class="fa fa-brands fa-instagram"></i>
+				</a>
+				<a href="https://t.me/deevelopeX">
+					<i class="fa fa-brands fa-telegram"></i>
+				</a>
+				<a href="https://www.facebook.com/profile.php?id=100071359252969">
+					<i class="fa fa-brands fa-facebook"></i>
+				</a>
+			</div>
 		</section>
 		
 	</main>

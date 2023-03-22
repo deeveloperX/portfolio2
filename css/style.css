@@ -418,7 +418,14 @@
     #container12-1 .col-3{
       width: 80%;
       border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
+
+    #container12-1 .col-3 img {
+      width: 80%;
+  }
 
     #container12-1 .col-9{
       height: auto;
@@ -427,7 +434,7 @@
 
     #container12-1 .col-9 .data{
       margin: 0px;
-      line-height: 25px;
+      line-height: 20px;
     }
 
     #container12-1 .col-9 .data p{
@@ -436,6 +443,10 @@
 
     #container12-2{
       height: auto;
+    }
+    #container12-2 p{
+      font-size: 18px;
+      line-height: 23px;
     }
   }
   
@@ -451,19 +462,23 @@
     padding: 2rem;
   }
 
-  #education h2{
-    font-size: 50px;
-    margin-bottom: 65px;
-    /*Animation*/
-    animation: glitch1 2.5s infinite;
+  #education > .col-12{
+    display: flex;
+    padding: 30px 0px;
+    max-width: 80%;
   }
 
-  #education .data{
-    max-width: 70%;
+  #education > .col-12 > .col-4{
+    margin: 10px 50px ;
   }
-  #ducation .data p{
-    font-size: 20px;
-    text-align: justify;
+
+  #education > .col-12 > .col-4 > i{
+    font-size: 25px;
+    color: #049910;
+  }
+
+  #education > .col-12 > .col-4 > h2{
+    margin: 17px 0px;
   }
 
   
@@ -472,7 +487,8 @@
       height: 1100px ;
       padding: 1rem;
     }
-    #education .data{
+    #education > .col-12{
+      flex-direction: column;
       max-width: 95%;
     }
   }
@@ -551,7 +567,7 @@
 
 
   
-  /* Contact Section */
+  /* -----------------contact section------------------ */
   #contact {
     /* background-color: #1D1D1D; */
     color: white;
@@ -594,7 +610,7 @@
     outline: none;
   }
   
-  #contact #button {
+  #contact #submitButton {
     padding: 17px;
     margin: 20px;
     width: 370px;
@@ -607,7 +623,7 @@
     transition: background-color 0.3s ease;
   }
   
-  #contact #button:hover {
+  #contact #submitButton:hover {
     background-color: #049910;
   }
   
@@ -620,6 +636,24 @@
     
   }
 
+
+  /* -----------------footer section------------------ */
+
+  #footer{
+    margin-bottom: 20px;
+  }
+
+  #footer > .row{
+    text-align: center;
+  }
+
+  #footer > .row > a{
+    margin: 0px 10px;
+  }
+
+  #footer > .row > a > i{
+    font-size: 25px;
+  }
 
 
 
